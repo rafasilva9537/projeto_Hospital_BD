@@ -58,7 +58,3 @@ CREATE TABLE tb_receita(
   descricao VARCHAR(500),
   FOREIGN KEY (id_consulta) REFERENCES tb_consulta(id_consulta)
 );
-
-DROP TABLE tb_paciente;
-DROP TABLE tb_especialidade;
-DROP TABLE tb_medico;
