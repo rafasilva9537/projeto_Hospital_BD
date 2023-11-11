@@ -8,7 +8,7 @@ CREATE TABLE tb_paciente(
   nome VARCHAR(100) not NULL,
   data_nascimento DATE,
   endereco VARCHAR(300),
-  telefone CHAR(14)
+  telefone CHAR(11)
 );
 
 CREATE TABLE tb_especialidade(
