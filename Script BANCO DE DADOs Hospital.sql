@@ -5,7 +5,7 @@ PRAGMA foreign_keys = ON; --precisa ser a primeira coisa a ser usada no SQLite
 CREATE TABLE tb_paciente(
   id_paciente INTEGER PRIMARY KEY AUTOINCREMENT, --para usar autoincrement (explicitamente) no SQLITE primary key precisa estar aqui
   cpf CHAR(11),
-  nome VARCHAR(100) not NULL,
+  nome VARCHAR(100) NOT NULL,
   data_nascimento DATE,
   endereco VARCHAR(300),
   telefone CHAR(11)
