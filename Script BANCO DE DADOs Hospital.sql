@@ -25,7 +25,7 @@ CREATE TABLE tb_medico(
 );
 
 CREATE TABLE tb_consulta(
-  id_consulta INTEGER PRIMARY KEY AUTOINCREMENT, --precisa de NOT NULL? Ver faq do SQLite
+  id_consulta INTEGER PRIMARY KEY AUTOINCREMENT,
   id_paciente INTEGER,
   crm CHAR(10),
   data_horario DATETIME NOT NULL,
